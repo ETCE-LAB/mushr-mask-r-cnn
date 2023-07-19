@@ -1,10 +1,10 @@
-last_checkpoint=$(cat train_2023_06_29_04/last_checkpoint)
+last_checkpoint=$(cat train_2023_04_04/last_checkpoint)
 
 ./train_net.py --num-gpus 1 \
-               --config-file train_2023_06_29_04/config.yaml \
-	       MODEL.WEIGHTS "train_2023_06_29_04/$last_checkpoint" \
+               --config-file train_2023_04_04/config.yaml \
+	       MODEL.WEIGHTS "train_2023_04_04/$last_checkpoint" \
 	       INPUT.CROP.ENABLED True \
-               DATASETS.TRAIN \(\"MushR_Dataset_2023_06_29\",\) \
+               DATASETS.TRAIN \(\"MushR_Dataset_V1.1\",\) \
                SOLVER.MAX_ITER 1000000 \
                SOLVER.CHECKPOINT_PERIOD 1000 \
                SOLVER.IMS_PER_BATCH 8 \

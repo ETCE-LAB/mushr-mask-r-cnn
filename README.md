@@ -8,12 +8,12 @@ detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
 
 # Annotations
 
-1. Train: [MushR_Dataset_V1.1_2023_04_20-COCO.json](MushR_Dataset_V1.1_2023_04_20-COCO.json)
+1. Train: [MushR_Dataset_V1.1_2023_04_04-COCO.json](MushR_Dataset_V1.1_2023_04_04-COCO.json)
 2. Test: [MushR_Dataset_2023_06_29_TEST-COCO.json](MushR_Dataset_2023_06_29_TEST-COCO.json)
 
 # Training 
 
-All training related configuration can be found in [train_2023_04_20/](train_2023_04_20/).
+All training related configuration can be found in [train_2023_04_04/](train_2023_04_04/).
 
 We used the [train.sh](train.sh) script to train the model.
 
@@ -35,4 +35,4 @@ Please check [inference_2023_04_20](inference_2023_04_20) for examples of expect
 
 To evaluate the model, please use the [eval.sh](eval.sh) script.
 
-Our evaluation results of the trained model are given in [eval_2023_04_20](eval_2023_04_20).
+Our evaluation results of the trained model are given in [eval_2023_07_19](eval_2023_07_19).

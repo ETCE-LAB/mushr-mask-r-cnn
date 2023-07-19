@@ -172,10 +172,10 @@ def main(args):
 if __name__ == "__main__":
     args = default_argument_parser().parse_args()
     print("Command Line Args:", args)
-    register_coco_instances("MushR_Dataset_2023_06_29", {},
-                            "MushR_Dataset_2023_06_29-COCO.json",
+    register_coco_instances("MushR_Dataset_V1.1", {},
+                            "MushR_Dataset_V1.1_2023_04_04-COCO.json",
                             "/home/sho/Desktop")
-    MetadataCatalog.get("MushR_Dataset_2023_06_29").thing_classes = ["Pinning",
+    MetadataCatalog.get("MushR_Dataset_V1.1").thing_classes = ["Pinning",
                                                                 "Not-Ready",
                                                                 "Ready",
                                                                 "Overdue"]
